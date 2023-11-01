@@ -13,15 +13,24 @@ After you have followed the steps and installed tmux-plugin manager successfully
 <br/>
 
 
-Step1. Open your ~/.tmux.conf file in a text editor: 
+Step1. Open your ```~/.tmux.conf``` file in a text editor: <br/> 
+<br/>
 ```nvim ~/.tmux.conf```
+
+<br/>
 
 Step2. Copy the tmux.conf code from the repository and paste it into your tmux.conf file & exit your editor.
 
-Step3. If you are in tmux already(prefered), refresh and apply the script using:
+<br/>
+
+Step3. If you are in tmux already(prefered), refresh and apply the script using: <br/>
+<br/>
 ```tmux source-file ~/.tmux.conf```
 
-Step4. This way your default tmux keybinding of ``` ‘Ctrl+b’ ```changes to ``` ‘Ctrl+<spacebar>’ ```, now open up the ```tmux.conf``` file again.
+<br/>
+
+
+Step4. This way your default tmux keybinding of ``` ‘Ctrl+b’ ```changes to ``` ‘Ctrl+<spacebar>’ ```, now open up the ```tmux.conf``` file again.<br/>
 
 Step5. Now press ``` Ctrl+<spacebar> (leave the keys) + I ``` to install all the plugins into your tmux and now you are ready.
 
